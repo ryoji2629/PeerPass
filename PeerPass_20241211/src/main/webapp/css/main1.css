@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* メインコンテンツを1200pxに */
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+/* 背景画像 */
+.back_img_main{
+	background-image: url("../PeerPass_img/back_img_main.jpg");
+	background-size: cover;
+	background-position: center; /* 背景画像を中央に配置 */
+	width: 100%; /* 背景画像をウインドウ幅いっぱいに表示 */
+	max-width: 100%; /* 最大幅をウインドウ幅に合わせる */
+	position: relative; /* コンテンツを上に重ねる */
+	min-height: 100vh;
+	height: 100%;
+}
+
+/* 宣言部分のテキストボックス */
+.textbox{
+	background-color: white;
+    height: 100px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    border: 3px solid #855D00;
+    padding: 5px;
+    border-radius: 4px;
+    width: 505px;
+}
+
+/* 宣言ボタン */
+.declaration_btn{
+	display: block;
+	width: 320px;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* エラーメッセージ */
+.error_msg{
+	text-align: center;
+}
+
+.posting_title{
+	font-family: "Reggae One", system-ui;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 36px;
+	padding: 50px 0 50px 0;
+	width: 100%; /* 親要素と同じ幅にする */
+	max-width: 1200px; /* 幅を最大1200pxに制限 */
+	margin: 0 auto;
+	text-align: center;
+}
+
+.post{
+	margin: 50px 0;
+	display: flex;
+	border-bottom: dotted #855d00;
+}
+
+.goals_of_users{
+	font-family: "Reggae One", system-ui;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	margin-left: 80px;
+	text-align: left;
+}
+
+.goals_of_users p{
+	padding: 0 0 50 0;
+}
+
+.users{
+	font-family: "Reggae One", system-ui;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	width: 100%; /* 親要素と同じ幅にする */
+	max-width: 1200px; /* 幅を最大1200pxに制限 */
+	margin: 0 auto;
+	text-align: left;
+	display: flex;
+	vertical-align: middle; /* 上下中央寄せ */
+}
+.users p{
+	font-size: 25px;
+	padding: 0 20px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.stamp_container{
+	display: flex;
+}
+
+/* スタンプ */
+.stamp_con{
+	width: 8%;
+	display: flex;
+	align-items: flex-end;
+	min-width: 96px;
+}
+
+.stamp{
+    opacity: 0.5;
+	width: 100%;
+}
+
+.con{
+    width: 92%;
+}
+
+/* 宣言ボタン */
+.footer_btn_nogoal img{
+	transition: all 0.3s; /*ぬるっと拡大させるための設定*/
+}
+
+.footer_btn_nogoal img:hover{
+	transform: scale(1.2);
+}

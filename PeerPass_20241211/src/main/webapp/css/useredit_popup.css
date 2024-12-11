@@ -1,0 +1,102 @@
+@charset "UTF-8";
+#modal-open-useredit,
+#modal-close-useredit{
+	width: 320px;
+	margin: 40px auto;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#modal-bg-useredit{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 500;
+	
+}
+#modal-bg-useredit.active {
+	opacity: 1;
+	pointer-events: auto;
+	max-height: 100vh;
+}
+#modal-container-useredit{
+	position: absolute;
+	top: -560px;
+	left: 50%;
+	transform:translateX(-50%);
+	color: #fff;
+	border: #fff solid 5px;
+	border-radius: 6px;
+	background-color:black;
+	padding: 20px;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 1000;
+	text-align: left;
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+#modal-container-useredit.active{
+	opacity: 1;
+	pointer-events: auto;
+	width: 505px;
+	height: 400px;
+	max-height: 100vh;
+	position: relative;
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+}
+
+#modal-container-useredit.active h4{
+	font-size: 18px;
+	margin: 0 auto 30px;
+}
+
+#modal-container-useredit.active p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#modal-close-useredit{
+	margin: 10px auto;
+	display: inline-block;
+	max-width: 80px;
+	position: absolute;
+	left: 350px;
+	top: 10px;
+}
+
+
+.after-change{
+	margin-left: 50px;
+}
+
+
+
+.yes_no_useredit{
+	display: flex;
+	justify-content:space-between;
+	gap: 60px;
+	position: relative;
+	width: 200px;
+}
+
+
+
+.yes_no_useredit button{
+	width: 100%;
+	position: absolute;
+	left: 250px;
+	top: 30px;
+	max-width: 50px;
+	bottom: 0;
+}

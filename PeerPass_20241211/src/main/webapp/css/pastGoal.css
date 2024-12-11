@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.bgimg{
+	background-image: url("../PeerPass_img/back_img_past.png");
+	background-size: cover;
+	background-position: center; /* 背景画像を中央に配置 */
+	width: 100%; /* 背景画像をウインドウ幅いっぱいに表示 */
+	max-width: 100%; /* 最大幅をウインドウ幅に合わせる */
+	position: relative; /* コンテンツを上に重ねる */
+	min-height: 100vh;
+
+}
+
+/* mainコンテンツ幅 */
+.wrapper{
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 7rem;
+}
+
+.title{
+	font-family: "Reggae One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	margin: 10%;
+}
+/* ここからフォーム */
+.form_container{
+	display: flex;
+	margin-top: 2rem;
+	flex-wrap: wrap;
+	column-gap: 12vw;
+	row-gap: 12vw;
+}
+
+.form_bg{
+		background-image: url("../PeerPass_img/daily_target.png");
+		background-repeat: no-repeat;
+		background-size: contain; /* 背景画像を要素全体に調整 */
+		background-position: center; /* 背景画像を中央に配置 */
+		width:calc((100% - 12vw) / 2); 
+		aspect-ratio: 1 / 0.734;
+		position: relative; /* 必要なら背景画像上にコンテンツを配置可能に */
+		padding: 4%;
+		display: flex;
+		flex-direction: column;
+}
+
+
+.icon_name_container{
+	display:  flex;
+	align-items: center; /* アイテムを縦方向で中央揃え */
+}
+.icon_sub{
+	width: 100%;
+}
+.img_icon{
+	margin: 1rem;
+	width: 17%;
+}
+.nickname{
+	font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.goal_name{
+	font-family: "Reggae One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 150%;
+	margin-left: calc(17% + 2rem);
+}
+
+/*ボタン*/
+.btn_group{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	gap: 12%;
+}
+
+.complete_btn:hover {
+    transform: scale(1.2);
+}
+
+.incomplete_btn:hover {
+    transform: scale(1.2);
+}
+
+
+.complete_btn{
+	height: 80%;
+    width: 100%;
+	transition: all 0.3s;
+}
+
+.incomplete_btn{
+	height: 80%;
+    width: 100%;
+	transition: all 0.3s;
+}
+
+/*登録日時*/
+.register_date_1{
+	font-family: "Reggae One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	text-align: right;
+	margin-right: 1rem;
+}
+
+.register_date{
+	font-family: "Reggae One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	text-align: right;
+	margin-right: 1rem;
+	margin-top: auto;
+}
+
+
+/* ここから達成後フォーム */
+.achieved_stamp{
+	z-index: 10;
+	position: absolute;
+	opacity: 0.5;
+	top: 50%; /* 親要素の高さの50%に配置 */
+    left: 50%; /* 親要素の幅の50%に配置 */
+    transform: translate(-50%, -50%); /* 要素の中央を基準点に移動 */
+	width: 70%;
+}
+.achieved_stamp img{
+	width: 100%;
+}
+
+/* topに戻るボタン */
+.top_btn{
+	display: flex;
+	justify-content: right;
+	margin-top: 10rem;
+}
+
+.backtotop_btn:hover{
+	transform: scale(1.2);
+}
+.backtotop_btn{
+	transition: all 0.3s;
+}

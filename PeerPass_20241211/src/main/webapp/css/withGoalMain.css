@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+form{
+    padding:  0;
+}
+
+.form_bg{
+    margin: 0 auto;
+
+}
+
+.goal_name{
+    font-size: 260%;
+    margin: auto;
+    padding: 4%;
+}
+
+/* ボタン */
+.btn_group{
+    margin-top: 8%;
+    gap: 5%;
+
+}
+
+.complete_btn{
+	height: 100%;
+    width: 100%;
+}
+.incomplete_btn {
+    height: 100%;
+    width: 100%;
+}
+
+.posting_title{
+    margin-top: 12%;
+}
+
+
+

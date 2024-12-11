@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.posting_title{
+	padding: 150px 0 50px 0;
+	margin-top: 0;
+}
+
+.top_page_btn{
+	display: flex;
+	justify-content: center;
+	margin: 150px 0;
+}

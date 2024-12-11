@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* プロフィール編集のcss */
+
+.register_form p{
+	color: red;
+}
+
+.input_text{
+	color: #333;
+}
+
+.form{
+	padding: 100px 40px 40px 40px;             /* フォームに内側の余白を追加 */
+}
+
+.footer_btn{
+	margin: 50px auto;
+}

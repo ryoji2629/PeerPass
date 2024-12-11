@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+/*達成モーダルウィンドウ*/
+
+#complete,
+#modal-close-withgoal{
+	
+	cursor: pointer;
+}
+
+#modal-bg-withgoal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 500;
+	
+}
+#modal-bg-withgoal.active {
+	opacity: 1;
+	pointer-events: auto;
+	
+}
+#modal-container-withgoal{
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	transform:translateX(-50%);
+	color: #fff;
+	border: #fff solid 5px;
+	border-radius: 6px;
+	background-color:black;
+	padding: 20px;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 1000;
+	text-align: left;
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+#modal-container-withgoal.active{
+	opacity: 1;
+	pointer-events: auto;
+	width: 505px;
+	height: 200px;
+	
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+}
+
+#modal-container-withgoal.active h4{
+	font-size: 18px;
+	margin: 0 auto 30px;
+}
+
+#modal-container-withgoal.active p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#modal-close-withgoal{
+	margin: 10px auto;
+	display: inline-block;
+	max-width: 80px;
+	position: absolute;
+	left: 250px;
+	top: 10px;
+}
+
+
+.after-change{
+	margin-left: 50px;
+}
+
+
+
+.yes_no_withgoal{
+	display: flex;
+	justify-content:space-between;
+	gap: 60px;
+	position: relative;
+	
+}
+
+
+
+.yes_no_withgoal button{
+	width: 100%;
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	max-width: 50px;
+	bottom: 0;
+}
+
+.goal-achievement{
+	padding-left: 0px;
+	color: rgb(0, 255, 255);
+	font-size: 22px;
+}
+
+.goal-not-achieved{
+	padding-left: 0px;
+	color: red;
+	font-size: 22px;
+}
+
+/*未達成モーダルウィンドウ*/
+
+#complete2,
+#modal-close-withgoal-2{
+	
+	cursor: pointer;
+}
+
+#modal-bg-withgoal-2{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 500;
+	
+}
+#modal-bg-withgoal-2.active {
+	opacity: 1;
+	pointer-events: auto;
+	
+}
+#modal-container-withgoal-2{
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	transform:translateX(-50%);
+	color: #fff;
+	border: #fff solid 5px;
+	border-radius: 6px;
+	background-color:black;
+	padding: 20px;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 1000;
+	text-align: left;
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+#modal-container-withgoal-2.active{
+	opacity: 1;
+	pointer-events: auto;
+	width: 505px;
+	height: 200px;
+	
+	font-family: "DotGothic16", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+}
+
+#modal-container-withgoal-2.active h4{
+	font-size: 18px;
+	margin: 0 auto 30px;
+}
+
+#modal-container-withgoal-2.active p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#modal-close-withgoal-2{
+	margin: 10px auto;
+	display: inline-block;
+	max-width: 80px;
+	position: absolute;
+	left: 250px;
+	top: 10px;
+}
+
+
+.after-change{
+	margin-left: 50px;
+}
+
+
+
+.yes_no_withgoal-2{
+	display: flex;
+	justify-content:space-between;
+	gap: 60px;
+	position: relative;
+	
+}
+
+
+
+.yes_no_withgoal-2 button{
+	width: 100%;
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	max-width: 50px;
+	bottom: 0;
+}
+
+
+
+
+
